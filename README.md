@@ -123,11 +123,11 @@
 <h2>Experiment</h2>
 <h3>Setup</h3>
 <p>For my low-pass filter, I used a 10k-ohm resistor and a 0.01uF capacitor, meaning that my expected cutoff frequency in a perfect world would be roughly 1600 Hz. However it is also important to note that I also used a load resistor that connects Vout to ground and this could have an effect on the cutoff frequency. In addition to the load resistor I also used a resistor connected to the input to limit the current to the op-amp and stablize the input.</p>
-<img src="/Active-Low-Pass-Filters/Active_Low_Pass.png"/>
+<img src="/Active_Low_Pass.png"/>
 <p>To test this, I made my own active low-pass filter (which can be seen in the simple schematic above) and then connected the input voltage to a wave generator and the output voltage to an oscilloscope. I also connected the input voltage straight from the wave generator to the oscilloscope so I could see both waves side by side. I took readings of the amplitude of the output voltage, (peak to peak). Once I gathered the amplitude readings I derived the gain from them. My results are pictured below along with corresponding graphs. It is also important to note that I plotted the linear gain, (unitless), instead of using the dB scale.</p>
 
 <h2>Results</h2>
-<img src="/Active-Low-Pass-Filters/Active_Low_Pass_Findings.png"/>
+<img src="/Active_Low_Pass_Findings.png"/>
 
 <h2>Gain Analysis</h2>
 <p>As you can see from the Gain vs. Frequency graph, there appears to be a drop-off between 400 and 1000 Hz. Signals with a frequency greater than 1000 Hz appear to be significantly attenuated, while signals with an amplitude less than 400 Hz have only minor attenuation. In other words, only signals less than 400 Hz (around the cutoff frequency) pass through relatively unattenuated.</p>
