@@ -1,9 +1,9 @@
-<h1>Active Low Pass Filters</h1>
+<h1>Active Filters</h1>
 
 ### [YouTube Demonstration Coming Soon](INSERTLINK)
 
 <h2>Description</h2>
-<p>An active low-pass filter is an electronic circuit designed to allow low-frequency signals to pass through while attenuating high-frequency signals. The term "active" indicates that the circuit uses active components, in our case an operational amplifier, in addition to passive components like resistors and capacitors. The op-amp provides gain and enhances the filter's performance compared to passive filters, allowing for better control over the filter's cutoff frequency and gain.</p>
+<p>An active filter is an electronic circuit designed to allow low-frequency signals,(low pass), high frequency signals, (high pass), or a specific band of frequency signals, (band pass), to pass through while attenuating all others signals. The term "active" indicates that the circuit uses active components, in our case an operational amplifier, in addition to passive components like resistors and capacitors. The op-amp provides gain and enhances the filter's performance compared to passive filters, allowing for better control over the filter's cutoff frequency and gain.</p>
 
 <h2>Environments Used</h2>
 <ul>
@@ -108,7 +108,7 @@
 </ul>
 
 <h2>Background</h2>
-<p>For my active low-pass filter, I used a configuration of a resistor and a capacitor in parallel to the op-amp. The behavior of RC components in relation to signal frequencies helps explain why this functions as a active low-pass filter.</p>
+<p>For my active filter I will be designing a active low pass filter, I used a configuration of a resistor and a capacitor in parallel to the op-amp. The behavior of RC components in relation to signal frequencies helps explain why this functions as a active low-pass filter.</p>
 <ul>
   <li>Resistors' impedance remains constant regardless of the signal frequency.</li>
   <li>Capacitors, however, block high-frequency signals because their impedance decreases at higher frequencies. At low frequencies, the capacitor has a higher impedance, so it allows more of the low-frequency signal to appear across it.</li>
