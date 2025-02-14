@@ -139,7 +139,7 @@
   </li>
   <li><strong>Higher Frequencies (10 kHz - 1 MHz):</strong>
     <ul>
-      <li>From 10 kHz onward, the gain sharply decreases, at 10 kHz the gain is 9.87, at 50 kHz the gain is 6.79, at 500 kHz the gain is 2.05, and at 1 MHz the gain is 1.46. This significant attenuation of higher frequencies is the key indicator of a low-pass filter, as it demonstrates that the filter is strongly reducing the amplitude of signals in the higher frequency range.</li>
+      <li>From 10 kHz onward, the gain sharply decreases, at 10 kHz the gain is 9.87, at 50 kHz the gain is 6.79, at 500 kHz the gain is 2.05, and at 1 MHz the gain is 1.46. This significant attenuation of higher frequencies is the key indicator of a low-pass filter, as it demonstrates that the filter is strongly reducing the amplitude of signals in the higher frequency range. Ideally this Low-Pass Filter should completely attenuate signals above the cutoff frequency, making their gain 0. However because this is not achieveable because the Op-Amp itself is not truly ideal. An ideal Op-Amp would have infinite input impedence and would not have any parasitic capacitance.</li>
     </ul>
   </li>
 </ul>
